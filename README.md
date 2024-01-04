@@ -7,7 +7,14 @@
 * [Astro](https://astro.build), of course...
 * [TailwindCSS](https://tailwindcss.com/)
 
-### Deployment:
+## Getting started
+
+* Edit `/src/config.ts`, fill in your information
+* Run `yarn astro dev`
+* Navigate to 'http://localhost:4321' using your browser
+* Enjoy!
+
+## Deployment:
 
 * Use `Yarn`
   * yarn.lock
