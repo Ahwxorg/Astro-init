@@ -22,3 +22,19 @@
 * Use `Docker`
   * Dockerfile
   * Building Docker images using GitHub Actions
+
+## See example:
+
+```sh
+mkdir astro-init
+cd astro-init
+cat <<EOF | tee docker-compose.yml
+version: "3"
+services:
+  astro-init-example: # Container name
+    ports:
+      - 4321:8080 # Change the first number to any port you like
+    image: ghcr.io/ahwxorg/astro-init # Change to your repository
+EOF
+docker compose up -d
+```
